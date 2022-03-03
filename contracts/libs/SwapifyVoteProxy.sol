@@ -96,8 +96,8 @@ interface IBEP20 {
 }
 
 
-contract PancakeVoterProxy {
-    // SYRUP
+contract SwapifyVoterProxy {
+    //SWYPOOL
     address public constant votes = 0x009cF7bC57584b7998236eff51b98A168DceA9B0;
 
     function decimals() external pure returns (uint8) {

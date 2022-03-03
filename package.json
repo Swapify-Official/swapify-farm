@@ -1,6 +1,19 @@
 {
-  "name": "PancakeSwap",
+  "name": "@swapify-official/swapify-farm",
+  "description": "Farm contracts for the Swapify protocol",
   "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "repository": "https://github.com/Swapify-Official/Swapify-Farm.git",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
   "main": "index.js",
   "scripts": {
     "migrate": "truffle migrate --network mumbai --reset",
