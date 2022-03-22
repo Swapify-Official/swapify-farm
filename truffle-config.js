@@ -16,7 +16,7 @@ module.exports = {
       port: 9545, // Standard Ethereum port (default: none)
       network_id: "*", // Any network (default: none)
     },
-    matic: {
+    mumbai: {
       provider: () =>
         new HDWalletProvider(
           process.env.PK,
@@ -27,6 +27,16 @@ module.exports = {
       timeoutBlocks: 200,
       skipDryRun: true,
     },
+    ropsten: {
+      provider: () =>
+        new HDWalletProvider(
+          process.env.MNENOMIC,
+          `https://speedy-nodes-nyc.moralis.io/4c4be40d09f80112d07cb29c/eth/ropsten`
+        ),
+      network_id: 3,
+      gasPrice: 10e9,
+      skipDryRun: true
+    }
   },
 
   // Set default mocha options here, use special reporters etc.
