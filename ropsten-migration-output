@@ -1,0 +1,62 @@
+1_initial_migration.js
+======================
+   -------------------------------------
+   > Total cost:                   0 undefined
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'SwapifyToken'
+   ------------------------
+   > transaction hash:    0xfd7f60d3197b7ea6ab50854b70b3931cb4f8a0836d9f15006a6f6d98f09b5d48
+   > Blocks: 1            Seconds: 8
+   > contract address:    0x2056D00cdb188cf85cE558dc87f371B623672d34
+   > block number:        12118949
+   > block timestamp:     1647965676
+   > account:             0x08D359CaA7F6cbF79Ab2d880264C404008B4Ed96
+   > balance:             0.967898067
+   > gas used:            3008893 (0x2de97d)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03008893 ETH
+
+
+   Deploying 'SwapifyPool'
+   -----------------------
+   > transaction hash:    0x93464b5267abeeac69299c6de87f03d6d43069d0d8de9e5df6e8be4da18ae557
+   > Blocks: 2            Seconds: 104
+   > contract address:    0x2c5c3173a7EE128b44690312CE1bA0072b626750
+   > block number:        12118956
+   > block timestamp:     1647965809
+   > account:             0x08D359CaA7F6cbF79Ab2d880264C404008B4Ed96
+   > balance:             0.934591737
+   > gas used:            3330633 (0x32d249)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03330633 ETH
+
+
+   Deploying 'MasterChef'
+   ----------------------
+   > transaction hash:    0xc594e588e6487eb691a511afb86f7f39bdcdf417e5045a417baf115239362611
+   > Blocks: 1            Seconds: 60
+   > contract address:    0x9798eA00E6239298f556D5B014D2e87C3D20d6bB
+   > block number:        12118957
+   > block timestamp:     1647965810
+   > account:             0x08D359CaA7F6cbF79Ab2d880264C404008B4Ed96
+   > balance:             0.902590707
+   > gas used:            3200103 (0x30d467)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03200103 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.09539629 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.09539629 ETH
